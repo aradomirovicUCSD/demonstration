@@ -14,7 +14,7 @@ public class NewJavaClass {
     }
 
     public void removeLastLetterOfName() {
-        name = name.substring(0,name.length());
+        name = name.substring(0,name.length()-1);
     }
 
     public String getName() {
